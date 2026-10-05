@@ -5,7 +5,8 @@ start = (0, 0)
 point_a = (2, 2)
 point_b = (4, 4)
 
-
+print(point_a)
+print(point_b)
 def find_path(start, goal, obstacles):
     queue = deque([[start]])
     visited = {start}
